@@ -147,8 +147,8 @@ The main error sources were visually similar ball categories, small external-tes
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/kamyargoodarzi/sports-ball-image-classification.git
+cd sports-ball-image-classification
 ```
 
 ### 2. Create an environment
