@@ -1,0 +1,60 @@
+--- output 2 (stream) ---
+Saved:
+./four_model_Results\resnet50_no_finetuning_accuracy_curve.png
+./four_model_Results\resnet50_no_finetuning_loss_curve.png
+
+
+--- output 3 (stream) ---
+Evaluating: 100%|██████████| 58/58 [00:17<00:00,  3.26it/s]
+
+
+--- output 4 (stream) ---
+Accuracy: 0.872895165670831
+                   precision    recall  f1-score   support
+
+american_football       0.89      0.79      0.84        96
+         baseball       0.97      0.91      0.94       100
+       basketball       0.82      0.87      0.85        86
+    billiard_ball       0.96      0.86      0.91       162
+     bowling_ball       0.83      0.82      0.83       111
+     cricket_ball       0.93      0.85      0.89       146
+         football       0.90      0.91      0.90       151
+        golf_ball       0.82      0.88      0.85       138
+      hockey_ball       0.80      0.77      0.79       133
+      hockey_puck       0.79      0.84      0.81        98
+       rugby_ball       0.82      0.86      0.84       124
+      shuttlecock       0.92      0.93      0.92       108
+table_tennis_ball       0.83      0.94      0.88       156
+      tennis_ball       0.94      0.91      0.93       123
+       volleyball       0.89      0.94      0.91       109
+
+         accuracy                           0.87      1841
+        macro avg       0.87      0.87      0.87      1841
+     weighted avg       0.88      0.87      0.87      1841
+
+
+
+--- output 6 (stream) ---
+Saved:
+./four_model_Results\resnet50_no_finetuning_classification_report.txt
+./four_model_Results\resnet50_no_finetuning_confusion_matrix.png
+
+
+--- output 8 (stream) ---
+Saved: ./four_model_Results\resnet50_no_finetuning_random_predictions.png
+
+
+--- output 9 (stream) ---
+Finding wrong predictions: 100%|██████████| 1841/1841 [00:30<00:00, 60.30it/s]
+
+
+--- output 10 (stream) ---
+Wrong predictions found: 234
+
+
+--- output 12 (stream) ---
+Saved: ./four_model_Results\resnet50_no_finetuning_wrong_predictions.png
+Saved to Google Drive:
+./four_model_Results/saved_models\resnet50_no_finetuning_sports_balls.pth
+Saved locally in Colab:
+resnet50_no_finetuning_sports_balls.pth

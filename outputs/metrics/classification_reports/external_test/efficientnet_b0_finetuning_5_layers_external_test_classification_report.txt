@@ -1,0 +1,52 @@
+--- output 0 (stream) ---
+Using device: cuda
+✅ ترتیب کلاس‌ها در دیتاست جدید با لیست class_names مطابقت دارد.
+✅ مدل 'best_efficientnetB0_ball_classifier_5UnFreeze_88.59.pth' با موفقیت و به صورت مستقیم لود شد.
+
+🚀 در حال ارزیابی: Final Test on New Dataset (EfficientNet-B0 5UnFreeze)
+
+
+--- output 1 (stream) ---
+Evaluating: 100%|██████████| 4/4 [00:01<00:00,  3.92it/s]
+
+
+--- output 2 (stream) ---
+
+📊 Classification Report:
+                   precision    recall  f1-score   support
+
+american_football       0.71      0.83      0.77         6
+         baseball       1.00      0.50      0.67         6
+       basketball       0.86      0.55      0.67        11
+    billiard_ball       0.67      0.67      0.67         6
+     bowling_ball       0.67      0.86      0.75         7
+     cricket_ball       0.75      0.60      0.67         5
+         football       0.67      0.67      0.67         6
+        golf_ball       0.67      0.67      0.67         9
+      hockey_ball       0.75      0.60      0.67        10
+      hockey_puck       0.71      0.83      0.77         6
+       rugby_ball       0.89      0.73      0.80        11
+      shuttlecock       0.80      0.89      0.84         9
+table_tennis_ball       0.88      1.00      0.93         7
+      tennis_ball       0.71      0.91      0.80        11
+       volleyball       0.75      1.00      0.86         9
+
+         accuracy                           0.76       119
+        macro avg       0.77      0.75      0.75       119
+     weighted avg       0.77      0.76      0.75       119
+
+Overall Accuracy: 0.7563
+
+
+--- output 4 (stream) ---
+
+💾 Saved:
+ - Report: .\Results\final_test_effb0_5unfreeze_classification_report.txt
+ - Confusion Matrix: .\Results\final_test_effb0_5unfreeze_confusion_matrix.png
+
+🖼️ در حال آماده‌سازی نمونه تصاویر...
+
+
+--- output 7 (stream) ---
+
+🎉 ارزیابی تمام شد! دقت نهایی: 75.63%

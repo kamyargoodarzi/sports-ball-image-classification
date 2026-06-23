@@ -1,0 +1,53 @@
+--- output 0 (stream) ---
+Using device: cuda
+✅ ترتیب کلاس‌ها در دیتاست جدید با لیست class_names مطابقت دارد.
+✅ فایل به عنوان یک Checkpoint کامل لود شد.
+✅ مدل '.\four_model_Results\saved_models\resnet50_with_finetuning_sports_balls_92.pth' با موفقیت لود شد و وزن‌ها بارگذاری شدند.
+
+🚀 در حال ارزیابی: Final Test on New Dataset (ResNet50 Partial Fine-Tuning)
+
+
+--- output 1 (stream) ---
+Evaluating: 100%|██████████| 4/4 [00:01<00:00,  3.24it/s]
+
+
+--- output 2 (stream) ---
+
+📊 Classification Report:
+                   precision    recall  f1-score   support
+
+american_football       0.83      0.83      0.83         6
+         baseball       0.83      0.83      0.83         6
+       basketball       0.89      0.73      0.80        11
+    billiard_ball       0.56      0.83      0.67         6
+     bowling_ball       0.80      0.57      0.67         7
+     cricket_ball       1.00      1.00      1.00         5
+         football       0.71      0.83      0.77         6
+        golf_ball       0.73      0.89      0.80         9
+      hockey_ball       0.71      0.50      0.59        10
+      hockey_puck       0.80      0.67      0.73         6
+       rugby_ball       0.73      0.73      0.73        11
+      shuttlecock       0.88      0.78      0.82         9
+table_tennis_ball       0.50      0.71      0.59         7
+      tennis_ball       0.92      1.00      0.96        11
+       volleyball       0.88      0.78      0.82         9
+
+         accuracy                           0.77       119
+        macro avg       0.78      0.78      0.77       119
+     weighted avg       0.79      0.77      0.77       119
+
+Overall Accuracy: 0.7731
+
+
+--- output 4 (stream) ---
+
+💾 Saved:
+ - Report: .\Results\final_test_resnet50_finetuned_classification_report.txt
+ - Confusion Matrix: .\Results\final_test_resnet50_finetuned_confusion_matrix.png
+
+🖼️ در حال آماده‌سازی نمونه تصاویر...
+
+
+--- output 7 (stream) ---
+
+🎉 ارزیابی تمام شد! دقت نهایی: 77.31%

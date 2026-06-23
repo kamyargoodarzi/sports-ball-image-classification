@@ -1,0 +1,55 @@
+--- output 0 (stream) ---
+Using device: cuda
+✅ ترتیب کلاس‌ها در دیتاست جدید با لیست class_names مطابقت دارد.
+✅ فایل به عنوان یک Checkpoint کامل لود شد (شامل model_state_dict).
+📌 دقت ذخیره‌شده در چک‌پوینت (مربوط به دیتاست قبلی): 0.8729
+📌 نام مدل در چک‌پوینت: resnet50_no_finetuning
+✅ مدل '.\four_model_Results\saved_models\resnet50_no_finetuning_sports_balls_87.pth' با موفقیت لود شد و وزن‌ها بارگذاری شدند.
+
+🚀 در حال ارزیابی: Final Test on New Dataset (ResNet50 No Fine-Tuning)
+
+
+--- output 1 (stream) ---
+Evaluating: 100%|██████████| 4/4 [00:03<00:00,  1.24it/s]
+
+
+--- output 2 (stream) ---
+
+📊 Classification Report:
+                   precision    recall  f1-score   support
+
+american_football       1.00      0.83      0.91         6
+         baseball       1.00      0.83      0.91         6
+       basketball       0.75      0.82      0.78        11
+    billiard_ball       0.80      0.67      0.73         6
+     bowling_ball       0.71      0.71      0.71         7
+     cricket_ball       1.00      0.80      0.89         5
+         football       1.00      1.00      1.00         6
+        golf_ball       0.64      0.78      0.70         9
+      hockey_ball       0.64      0.70      0.67        10
+      hockey_puck       0.67      1.00      0.80         6
+       rugby_ball       0.80      0.73      0.76        11
+      shuttlecock       1.00      0.89      0.94         9
+table_tennis_ball       0.80      0.57      0.67         7
+      tennis_ball       0.85      1.00      0.92        11
+       volleyball       0.88      0.78      0.82         9
+
+         accuracy                           0.81       119
+        macro avg       0.83      0.81      0.81       119
+     weighted avg       0.82      0.81      0.81       119
+
+Overall Accuracy: 0.8067
+
+
+--- output 4 (stream) ---
+
+💾 Saved:
+ - Report: .\Results\final_test_resnet50_no_ft_classification_report.txt
+ - Confusion Matrix: .\Results\final_test_resnet50_no_ft_confusion_matrix.png
+
+🖼️ در حال آماده‌سازی نمونه تصاویر...
+
+
+--- output 7 (stream) ---
+
+🎉 ارزیابی تمام شد! دقت نهایی: 80.67%

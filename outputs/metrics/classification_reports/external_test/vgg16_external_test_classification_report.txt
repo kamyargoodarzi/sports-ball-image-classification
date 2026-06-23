@@ -1,0 +1,52 @@
+--- output 0 (stream) ---
+📂 در حال لود کردن دیتاست جدید...
+Found 118 files belonging to 15 classes.
+✅ ترتیب کلاس‌ها در دیتاست جدید با لیست class_names مطابقت دارد.
+✅ مدل 'VGG16.keras' با موفقیت لود شد.
+
+🚀 در حال ارزیابی مدل روی دیتاست جدید...
+
+
+--- output 1 (stream) ---
+Evaluating: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
+
+
+--- output 2 (stream) ---
+
+📊 Classification Report:
+                   precision    recall  f1-score   support
+
+american_football       0.67      0.67      0.67         6
+         baseball       0.57      0.67      0.62         6
+       basketball       0.44      0.36      0.40        11
+    billiard_ball       0.80      0.67      0.73         6
+     bowling_ball       0.60      0.43      0.50         7
+     cricket_ball       0.67      0.40      0.50         5
+         football       0.50      0.50      0.50         6
+        golf_ball       0.54      0.78      0.64         9
+      hockey_ball       0.56      0.50      0.53        10
+      hockey_puck       0.50      0.33      0.40         6
+       rugby_ball       0.62      0.50      0.56        10
+      shuttlecock       0.83      0.56      0.67         9
+table_tennis_ball       0.43      0.43      0.43         7
+      tennis_ball       0.53      0.73      0.62        11
+       volleyball       0.33      0.56      0.42         9
+
+         accuracy                           0.54       118
+        macro avg       0.57      0.54      0.54       118
+     weighted avg       0.56      0.54      0.54       118
+
+
+
+--- output 4 (stream) ---
+
+💾 Saved:
+ - Report: .\Results\final_test_vgg16_classification_report.txt
+ - Confusion Matrix: .\Results\final_test_vgg16_confusion_matrix.png
+
+🖼️ در حال آماده‌سازی نمونه تصاویر...
+
+
+--- output 7 (stream) ---
+
+🎉 ارزیابی تمام شد! دقت نهایی: 54.24%

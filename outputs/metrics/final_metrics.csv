@@ -1,0 +1,9 @@
+model,original_test_accuracy,external_test_accuracy,included_in_final_comparison_plot,notes,original_test_accuracy_percent,external_test_accuracy_percent
+ResNet18 baseline,0.85,0.7143,No,Original accuracy from classification report; external accuracy from final/new dataset cell.,85.0,71.43
+EfficientNetB0 fine-tuning 4 layers,0.8713,0.7563,Yes,,87.13,75.63
+EfficientNetB0 fine-tuning 5 layers,0.8859,0.7563,Yes,,88.59,75.63
+EfficientNetB0 no fine-tuning,0.7746,0.6303,Yes,Called EfficientNetB0 Base Model in the notebook.,77.46,63.03
+EfficientNetB2 no fine-tuning,0.823,0.6891,Yes,,82.3,68.91
+ResNet50 no fine-tuning,0.8729,0.8067,Yes,,87.29,80.67
+ResNet50 with fine-tuning,0.9163,0.7731,Yes,Best original-test accuracy; lower external-test accuracy than ResNet50 no fine-tuning.,91.63,77.31
+VGG16 no fine-tuning,0.7594,0.5424,Yes,,75.94,54.24

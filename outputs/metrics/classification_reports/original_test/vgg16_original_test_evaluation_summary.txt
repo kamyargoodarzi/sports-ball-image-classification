@@ -1,0 +1,3 @@
+--- output 2 (stream) ---
+58/58 ━━━━━━━━━━━━━━━━━━━━ 45s 759ms/step - accuracy: 0.7594 - loss: 1.1526
+Test accuracy: 0.7594, Test loss: 1.1526

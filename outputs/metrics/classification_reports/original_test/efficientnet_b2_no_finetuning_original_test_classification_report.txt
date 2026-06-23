@@ -1,0 +1,60 @@
+--- output 2 (stream) ---
+Saved:
+./four_model_Results\efficientnet_b2_no_finetuning_accuracy_curve.png
+./four_model_Results\efficientnet_b2_no_finetuning_loss_curve.png
+
+
+--- output 3 (stream) ---
+Evaluating: 100%|██████████| 58/58 [00:12<00:00,  4.57it/s]
+
+
+--- output 4 (stream) ---
+Accuracy: 0.8234655078761542
+                   precision    recall  f1-score   support
+
+american_football       0.91      0.78      0.84        96
+         baseball       0.85      0.82      0.84       100
+       basketball       0.86      0.87      0.87        86
+    billiard_ball       0.84      0.88      0.86       162
+     bowling_ball       0.73      0.82      0.77       111
+     cricket_ball       0.88      0.77      0.82       146
+         football       0.82      0.88      0.85       151
+        golf_ball       0.77      0.83      0.79       138
+      hockey_ball       0.76      0.68      0.72       133
+      hockey_puck       0.83      0.72      0.77        98
+       rugby_ball       0.76      0.77      0.77       124
+      shuttlecock       0.93      0.87      0.90       108
+table_tennis_ball       0.78      0.87      0.82       156
+      tennis_ball       0.87      0.89      0.88       123
+       volleyball       0.87      0.86      0.87       109
+
+         accuracy                           0.82      1841
+        macro avg       0.83      0.82      0.82      1841
+     weighted avg       0.83      0.82      0.82      1841
+
+
+
+--- output 6 (stream) ---
+Saved:
+./four_model_Results\efficientnet_b2_no_finetuning_classification_report.txt
+./four_model_Results\efficientnet_b2_no_finetuning_confusion_matrix.png
+
+
+--- output 8 (stream) ---
+Saved: ./four_model_Results\efficientnet_b2_no_finetuning_random_predictions.png
+
+
+--- output 9 (stream) ---
+Finding wrong predictions: 100%|██████████| 1841/1841 [00:50<00:00, 36.63it/s]
+
+
+--- output 10 (stream) ---
+Wrong predictions found: 325
+
+
+--- output 12 (stream) ---
+Saved: ./four_model_Results\efficientnet_b2_no_finetuning_wrong_predictions.png
+Saved to Google Drive:
+./four_model_Results/saved_models\efficientnet_b2_no_finetuning_sports_balls.pth
+Saved locally in Colab:
+efficientnet_b2_no_finetuning_sports_balls.pth

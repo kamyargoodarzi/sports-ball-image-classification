@@ -1,0 +1,9 @@
+Extraction summary
+
+Source notebook: Final_Notebook.ipynb
+Extracted image outputs: 64
+Organized figure files: 64
+Text-output files: 56
+Final metrics rows: 8
+
+The folder names and filenames were assigned based on the notebook cell context, saved-file messages, figure titles, and evaluation sections.

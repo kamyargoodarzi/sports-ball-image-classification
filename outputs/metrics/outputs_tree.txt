@@ -1,0 +1,161 @@
+outputs/
+├── figures/
+│   ├── confusion_matrices/
+│   │   ├── external_test/
+│   │   │   ├── efficientnet_b0_base_external_test_confusion_matrix.png
+│   │   │   ├── efficientnet_b0_finetuning_4_layers_external_test_confusion_matrix.png
+│   │   │   ├── efficientnet_b0_finetuning_5_layers_external_test_confusion_matrix.png
+│   │   │   ├── efficientnet_b2_no_finetuning_external_test_confusion_matrix.png
+│   │   │   ├── resnet18_external_test_confusion_matrix.png
+│   │   │   ├── resnet50_no_finetuning_external_test_confusion_matrix.png
+│   │   │   ├── resnet50_with_finetuning_external_test_confusion_matrix.png
+│   │   │   └── vgg16_external_test_confusion_matrix.png
+│   │   └── original_test/
+│   │       ├── efficientnet_b0_base_confusion_matrix.png
+│   │       ├── efficientnet_b0_finetuning_4_layers_confusion_matrix.png
+│   │       ├── efficientnet_b0_finetuning_5_layers_confusion_matrix.png
+│   │       ├── efficientnet_b2_no_finetuning_confusion_matrix.png
+│   │       ├── resnet18_original_test_confusion_matrix.png
+│   │       ├── resnet50_no_finetuning_confusion_matrix.png
+│   │       ├── resnet50_with_finetuning_confusion_matrix.png
+│   │       ├── vgg16_original_test_confusion_matrix_counts.png
+│   │       └── vgg16_original_test_confusion_matrix_normalized.png
+│   ├── dataset_overview/
+│   │   ├── train_class_distribution.png
+│   │   └── train_sample_images_grid.png
+│   ├── error_analysis/
+│   │   ├── external_test/
+│   │   │   ├── efficientnet_b0_base_external_test_wrong_predictions.png
+│   │   │   ├── efficientnet_b0_finetuning_4_layers_external_test_wrong_predictions.png
+│   │   │   ├── efficientnet_b0_finetuning_5_layers_external_test_wrong_predictions.png
+│   │   │   ├── efficientnet_b2_no_finetuning_external_test_wrong_predictions.png
+│   │   │   ├── resnet18_external_test_wrong_predictions.png
+│   │   │   ├── resnet50_no_finetuning_external_test_wrong_predictions.png
+│   │   │   ├── resnet50_with_finetuning_external_test_wrong_predictions.png
+│   │   │   └── vgg16_external_test_wrong_predictions.png
+│   │   └── original_test/
+│   │       ├── efficientnet_b0_base_wrong_predictions.png
+│   │       ├── efficientnet_b0_finetuning_4_layers_wrong_predictions.png
+│   │       ├── efficientnet_b0_finetuning_5_layers_wrong_predictions.png
+│   │       ├── efficientnet_b2_no_finetuning_wrong_predictions.png
+│   │       ├── resnet50_no_finetuning_wrong_predictions.png
+│   │       └── resnet50_with_finetuning_wrong_predictions.png
+│   ├── external_test_predictions/
+│   │   ├── efficientnet_b0_base_external_test_sample_predictions.png
+│   │   ├── efficientnet_b0_finetuning_4_layers_external_test_sample_predictions.png
+│   │   ├── efficientnet_b0_finetuning_5_layers_external_test_sample_predictions.png
+│   │   ├── efficientnet_b2_no_finetuning_external_test_sample_predictions.png
+│   │   ├── resnet18_external_test_sample_predictions.png
+│   │   ├── resnet50_no_finetuning_external_test_sample_predictions.png
+│   │   ├── resnet50_with_finetuning_external_test_sample_predictions.png
+│   │   └── vgg16_external_test_sample_predictions.png
+│   ├── model_comparison/
+│   │   └── model_accuracy_comparison_original_vs_external.png
+│   ├── sample_predictions/
+│   │   └── original_test/
+│   │       ├── efficientnet_b0_base_random_predictions.png
+│   │       ├── efficientnet_b0_finetuning_4_layers_random_predictions.png
+│   │       ├── efficientnet_b0_finetuning_5_layers_random_predictions.png
+│   │       ├── efficientnet_b2_no_finetuning_random_predictions.png
+│   │       ├── resnet18_original_test_random_predictions.png
+│   │       ├── resnet50_no_finetuning_random_predictions.png
+│   │       ├── resnet50_with_finetuning_random_predictions.png
+│   │       └── vgg16_original_test_one_sample_per_class_predictions.png
+│   └── training_curves/
+│       ├── efficientnet_b0_base_accuracy_curve.png
+│       ├── efficientnet_b0_base_loss_curve.png
+│       ├── efficientnet_b0_finetuning_4_layers_accuracy_curve.png
+│       ├── efficientnet_b0_finetuning_4_layers_loss_curve.png
+│       ├── efficientnet_b0_finetuning_5_layers_accuracy_curve.png
+│       ├── efficientnet_b0_finetuning_5_layers_loss_curve.png
+│       ├── efficientnet_b2_no_finetuning_accuracy_curve.png
+│       ├── efficientnet_b2_no_finetuning_loss_curve.png
+│       ├── resnet50_no_finetuning_accuracy_curve.png
+│       ├── resnet50_no_finetuning_loss_curve.png
+│       ├── resnet50_with_finetuning_accuracy_curve.png
+│       ├── resnet50_with_finetuning_loss_curve.png
+│       ├── vgg16_accuracy_curve.png
+│       └── vgg16_loss_curve.png
+├── metrics/
+│   ├── classification_reports/
+│   │   ├── external_test/
+│   │   │   ├── efficientnet_b0_base_external_test_classification_report.txt
+│   │   │   ├── efficientnet_b0_finetuning_4_layers_external_test_classification_report.txt
+│   │   │   ├── efficientnet_b0_finetuning_5_layers_external_test_classification_report.txt
+│   │   │   ├── efficientnet_b2_no_finetuning_external_test_classification_report.txt
+│   │   │   ├── resnet18_external_test_classification_report_and_error_analysis.txt
+│   │   │   ├── resnet50_no_finetuning_external_test_classification_report.txt
+│   │   │   ├── resnet50_with_finetuning_external_test_classification_report.txt
+│   │   │   └── vgg16_external_test_classification_report.txt
+│   │   └── original_test/
+│   │       ├── efficientnet_b0_base_original_test_classification_report.txt
+│   │       ├── efficientnet_b0_finetuning_4_layers_original_test_classification_report.txt
+│   │       ├── efficientnet_b0_finetuning_5_layers_original_test_classification_report.txt
+│   │       ├── efficientnet_b2_no_finetuning_original_test_classification_report.txt
+│   │       ├── resnet18_original_test_classification_report.txt
+│   │       ├── resnet50_no_finetuning_original_test_classification_report.txt
+│   │       ├── resnet50_with_finetuning_original_test_classification_report.txt
+│   │       ├── vgg16_original_test_classification_report.txt
+│   │       └── vgg16_original_test_evaluation_summary.txt
+│   ├── notebook_text_outputs/
+│   │   ├── cell_002.txt
+│   │   ├── cell_003.txt
+│   │   ├── cell_004.txt
+│   │   ├── cell_005.txt
+│   │   ├── cell_006.txt
+│   │   ├── cell_007.txt
+│   │   ├── cell_009.txt
+│   │   ├── cell_011.txt
+│   │   ├── cell_012.txt
+│   │   ├── cell_013.txt
+│   │   ├── cell_017.txt
+│   │   ├── cell_018.txt
+│   │   ├── cell_021.txt
+│   │   ├── cell_024.txt
+│   │   ├── cell_027.txt
+│   │   ├── cell_029.txt
+│   │   ├── cell_033.txt
+│   │   ├── cell_036.txt
+│   │   ├── cell_040.txt
+│   │   ├── cell_061.txt
+│   │   ├── cell_062.txt
+│   │   ├── cell_064.txt
+│   │   ├── cell_066.txt
+│   │   ├── cell_069.txt
+│   │   ├── cell_070.txt
+│   │   ├── cell_072.txt
+│   │   ├── cell_074.txt
+│   │   ├── cell_077.txt
+│   │   ├── cell_078.txt
+│   │   ├── cell_080.txt
+│   │   ├── cell_082.txt
+│   │   ├── cell_087.txt
+│   │   ├── cell_088.txt
+│   │   ├── cell_094.txt
+│   │   ├── cell_096.txt
+│   │   ├── cell_100.txt
+│   │   ├── cell_103.txt
+│   │   ├── cell_105.txt
+│   │   ├── cell_106.txt
+│   │   ├── cell_108.txt
+│   │   ├── cell_111.txt
+│   │   ├── cell_113.txt
+│   │   ├── cell_114.txt
+│   │   ├── cell_116.txt
+│   │   ├── cell_119.txt
+│   │   ├── cell_120.txt
+│   │   ├── cell_122.txt
+│   │   ├── cell_124.txt
+│   │   ├── cell_129.txt
+│   │   ├── cell_141.txt
+│   │   ├── cell_143.txt
+│   │   ├── cell_145.txt
+│   │   ├── cell_148.txt
+│   │   ├── cell_150.txt
+│   │   ├── cell_156.txt
+│   │   └── cell_158.txt
+│   ├── training_logs/
+│   │   └── resnet18_training_log.txt
+│   ├── final_metrics.csv
+│   └── notebook_output_manifest.csv
+└── README.md

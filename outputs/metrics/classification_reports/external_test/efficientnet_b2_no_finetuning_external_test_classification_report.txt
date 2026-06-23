@@ -1,0 +1,54 @@
+--- output 0 (stream) ---
+Using device: cuda
+✅ ترتیب کلاس‌ها در دیتاست جدید با لیست class_names مطابقت دارد.
+✅ فایل به عنوان یک Checkpoint کامل لود شد.
+📌 دقت ذخیره‌شده در چک‌پوینت: 0.8235
+✅ مدل '.\four_model_Results\saved_models\efficientnet_b2_no_finetuning_sports_balls_82.3.pth' با موفقیت لود شد و وزن‌ها بارگذاری شدند.
+
+🚀 در حال ارزیابی: Final Test on New Dataset (EfficientNet-B2 No Fine-Tuning)
+
+
+--- output 1 (stream) ---
+Evaluating: 100%|██████████| 4/4 [00:01<00:00,  3.38it/s]
+
+
+--- output 2 (stream) ---
+
+📊 Classification Report:
+                   precision    recall  f1-score   support
+
+american_football       1.00      0.83      0.91         6
+         baseball       0.67      0.67      0.67         6
+       basketball       0.70      0.64      0.67        11
+    billiard_ball       0.80      0.67      0.73         6
+     bowling_ball       0.56      0.71      0.62         7
+     cricket_ball       0.60      0.60      0.60         5
+         football       0.62      0.83      0.71         6
+        golf_ball       0.54      0.78      0.64         9
+      hockey_ball       0.50      0.40      0.44        10
+      hockey_puck       0.71      0.83      0.77         6
+       rugby_ball       0.89      0.73      0.80        11
+      shuttlecock       0.78      0.78      0.78         9
+table_tennis_ball       0.75      0.43      0.55         7
+      tennis_ball       0.75      0.82      0.78        11
+       volleyball       0.67      0.67      0.67         9
+
+         accuracy                           0.69       119
+        macro avg       0.70      0.69      0.69       119
+     weighted avg       0.70      0.69      0.69       119
+
+Overall Accuracy: 0.6891
+
+
+--- output 4 (stream) ---
+
+💾 Saved:
+ - Report: .\Results\final_test_effb2_no_ft_classification_report.txt
+ - Confusion Matrix: .\Results\final_test_effb2_no_ft_confusion_matrix.png
+
+🖼️ در حال آماده‌سازی نمونه تصاویر...
+
+
+--- output 7 (stream) ---
+
+🎉 ارزیابی تمام شد! دقت نهایی: 68.91%

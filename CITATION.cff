@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Sports Ball Image Classification Prototype"
+authors:
+  authors:
+  - family-names: "Goodarzi"
+    given-names: "Kamyar"
+  - family-names: "Moghaddasin"
+    given-names: "Mohammadmahdi"
+  - family-names: "Noori"
+    given-names: "Amirreza"
+version: "1.0.0"
+date-released: "2026-06-23"

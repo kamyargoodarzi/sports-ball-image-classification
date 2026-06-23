@@ -1,0 +1,23 @@
+--- output 0 (stream) ---
+                   precision    recall  f1-score   support
+
+american_football       0.72      0.72      0.72        96
+         baseball       0.81      0.76      0.78       100
+       basketball       0.79      0.76      0.77        86
+    billiard_ball       0.89      0.78      0.83       162
+     bowling_ball       0.79      0.68      0.73       111
+     cricket_ball       0.78      0.79      0.79       146
+         football       0.78      0.81      0.79       151
+        golf_ball       0.68      0.78      0.72       138
+      hockey_ball       0.67      0.62      0.64       133
+      hockey_puck       0.75      0.70      0.73        98
+       rugby_ball       0.67      0.76      0.71       124
+      shuttlecock       0.86      0.86      0.86       108
+table_tennis_ball       0.80      0.78      0.79       156
+      tennis_ball       0.76      0.80      0.78       123
+       volleyball       0.67      0.77      0.71       109
+
+         accuracy                           0.76      1841
+        macro avg       0.76      0.76      0.76      1841
+     weighted avg       0.76      0.76      0.76      1841
+

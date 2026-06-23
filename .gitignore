@@ -1,0 +1,53 @@
+# Datasets and archives
+data/original/
+The New Dataset/
+The New Dataset.part*
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Model weights and checkpoints
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.onnx
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Secrets
+.env
+*.env
+secrets.json
+credentials.json
+token.json
+api_key.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

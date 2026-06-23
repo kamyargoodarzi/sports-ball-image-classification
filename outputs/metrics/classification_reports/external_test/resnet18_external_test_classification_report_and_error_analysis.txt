@@ -1,0 +1,82 @@
+--- output 0 (stream) ---
+Using device: cuda
+Test dataset size: 119
+Classes: ['american_football', 'baseball', 'basketball', 'billiard_ball', 'bowling_ball', 'cricket_ball', 'football', 'golf_ball', 'hockey_ball', 'hockey_puck', 'rugby_ball', 'shuttlecock', 'table_tennis_ball', 'tennis_ball', 'volleyball']
+Number of classes: 15
+Model loaded successfully from resnet18_sports_balls_3_85.pth
+
+==================================================
+Overall Accuracy: 0.7143 (71.43%)
+==================================================
+
+Classification Report:
+======================================================================
+                   precision    recall  f1-score   support
+
+american_football     1.0000    0.8333    0.9091         6
+         baseball     1.0000    0.6667    0.8000         6
+       basketball     0.8750    0.6364    0.7368        11
+    billiard_ball     0.6250    0.8333    0.7143         6
+     bowling_ball     0.5714    0.5714    0.5714         7
+     cricket_ball     0.6667    0.8000    0.7273         5
+         football     1.0000    0.8333    0.9091         6
+        golf_ball     0.5000    0.6667    0.5714         9
+      hockey_ball     0.6667    0.4000    0.5000        10
+      hockey_puck     0.6667    0.6667    0.6667         6
+       rugby_ball     0.8333    0.9091    0.8696        11
+      shuttlecock     0.8571    0.6667    0.7500         9
+table_tennis_ball     0.6250    0.7143    0.6667         7
+      tennis_ball     0.6250    0.9091    0.7407        11
+       volleyball     0.6667    0.6667    0.6667         9
+
+         accuracy                         0.7143       119
+        macro avg     0.7452    0.7182    0.7200       119
+     weighted avg     0.7395    0.7143    0.7144       119
+
+
+
+--- output 4 (stream) ---
+
+Detailed Misclassification Analysis:
+======================================================================
+
+Most Common Misclassifications (True -> Predicted):
+----------------------------------------------------------------------
+american_football    -> shuttlecock         :   1 times
+baseball             -> bowling_ball        :   1 times
+baseball             -> billiard_ball       :   1 times
+basketball           -> volleyball          :   2 times
+basketball           -> tennis_ball         :   1 times
+basketball           -> bowling_ball        :   1 times
+billiard_ball        -> hockey_puck         :   1 times
+bowling_ball         -> golf_ball           :   2 times
+bowling_ball         -> tennis_ball         :   1 times
+cricket_ball         -> table_tennis_ball   :   1 times
+football             -> rugby_ball          :   1 times
+golf_ball            -> tennis_ball         :   2 times
+golf_ball            -> hockey_ball         :   1 times
+hockey_ball          -> golf_ball           :   3 times
+hockey_ball          -> tennis_ball         :   1 times
+hockey_ball          -> rugby_ball          :   1 times
+hockey_ball          -> bowling_ball        :   1 times
+hockey_puck          -> volleyball          :   1 times
+hockey_puck          -> table_tennis_ball   :   1 times
+rugby_ball           -> cricket_ball        :   1 times
+shuttlecock          -> tennis_ball         :   1 times
+shuttlecock          -> cricket_ball        :   1 times
+shuttlecock          -> billiard_ball       :   1 times
+table_tennis_ball    -> hockey_puck         :   1 times
+table_tennis_ball    -> billiard_ball       :   1 times
+tennis_ball          -> golf_ball           :   1 times
+volleyball           -> basketball          :   1 times
+volleyball           -> hockey_ball         :   1 times
+volleyball           -> table_tennis_ball   :   1 times
+
+======================================================================
+SUMMARY STATISTICS
+======================================================================
+Total Test Samples: 119
+Correct Predictions: 85
+Incorrect Predictions: 34
+Accuracy: 71.43%
+======================================================================
