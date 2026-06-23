@@ -5,7 +5,7 @@ Place the final notebook here.
 Expected notebook:
 
 ```text
-Moghaddasin_Noori_Goodarzi_Final.ipynb
+Final_Notebook.ipynb
 ```
 
 The final notebook should include:

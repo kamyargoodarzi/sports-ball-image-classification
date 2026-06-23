@@ -192,8 +192,7 @@ pip install -r requirements.txt
 ### 4. Open the notebook
 
 ```bash
-jupyter notebook notebooks/Moghaddasin_Noori_Goodarzi_Final.ipynb
-```
+jupyter notebook notebooks/Final_Notebook.ipynb```
 
 ## Important reproducibility notes
 
