@@ -142,20 +142,6 @@ Among the tested models, **ResNet50 without fine-tuning** is the strongest candi
 The main error sources were visually similar ball categories, small external-test class sizes, background variation, and image-quality differences. Before real deployment, the model should be tested with more company-specific product images and should include confidence-based human review for uncertain predictions.
 
 
-## Main findings
-
-Update this section after checking the final notebook outputs.
-
-- The best model was: `TODO`
-- The strongest classes were: `TODO`
-- The most difficult classes were: `TODO`
-- Main error sources:
-  - Similar ball shapes across classes
-  - Poor lighting or low image quality
-  - Unusual camera angles
-  - Complex backgrounds
-  - External images differing from the training distribution
-
 ## How to run
 
 ### 1. Clone the repository
