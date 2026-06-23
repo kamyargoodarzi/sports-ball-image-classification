@@ -117,14 +117,30 @@ The project uses transfer learning for sports ball image classification. The wor
 
 ## Models tested
 
-Update this table with the exact final numbers from your notebook before publishing.
 
-| Model | Fine-tuning | Original test accuracy | External test accuracy | Notes |
-|---|---:|---:|---:|---|
-| MobileNetV2 | No | TODO | TODO | Lightweight baseline |
-| EfficientNetB2 | No | TODO | TODO | Good accuracy/efficiency balance |
-| ResNet50 | No | TODO | TODO | Strong transfer learning baseline |
-| ResNet50 | Yes | TODO | TODO | Best-performing model in the final experiments |
+The following models were evaluated on both the original test set and the external test set.
+
+| Model             | Fine-tuning | Original test accuracy | External test accuracy | Notes                                                                                       |
+| ----------------- | ----------: | ---------------------: | ---------------------: | ------------------------------------------------------------------------------------------- |
+| ResNet18 baseline |          No |                 85.00% |                 71.43% | Lightweight baseline model                                                                  |
+| EfficientNetB0    |          No |                 77.46% |                 63.03% | Base EfficientNetB0 model                                                                   |
+| EfficientNetB0    |    4 layers |                 87.13% |                 75.63% | Fine-tuning improved performance over the base version                                      |
+| EfficientNetB0    |    5 layers |                 88.59% |                 75.63% | Best EfficientNetB0 result on the original test set                                         |
+| EfficientNetB2    |          No |                 82.30% |                 68.91% | Larger EfficientNet variant without fine-tuning                                             |
+| ResNet50          |          No |                 87.29% |                 80.67% | Best model on the external test set                                                         |
+| ResNet50          |         Yes |                 91.63% |                 77.31% | Best model on the original test set, but weaker generalization than non-fine-tuned ResNet50 |
+| VGG16             |          No |                 75.94% |                 54.24% | Weakest external-test performance                                                           |
+
+## Main findings
+
+The best original test-set performance was achieved by **ResNet50 with fine-tuning**, reaching **91.63% accuracy**. However, on the external test set, the best result came from **ResNet50 without fine-tuning**, with **80.67% accuracy**. This difference suggests that fine-tuning improved performance on the original dataset but did not generalize as well to newly collected real-world images.
+
+All models showed lower accuracy on the external test set compared with the original test set. This confirms that the external images were more challenging because they included different lighting conditions, backgrounds, camera angles, and image quality levels. The result is important because the company scenario requires reliable performance on real product-upload conditions, not only on the original dataset.
+
+Among the tested models, **ResNet50 without fine-tuning** is the strongest candidate for the prototype because it produced the best external-test accuracy. **ResNet50 with fine-tuning** remains useful as the strongest original-dataset model, but its external-test drop indicates possible overfitting or sensitivity to dataset distribution. **VGG16** performed the weakest and is not recommended for the final prototype.
+
+The main error sources were visually similar ball categories, small external-test class sizes, background variation, and image-quality differences. Before real deployment, the model should be tested with more company-specific product images and should include confidence-based human review for uncertain predictions.
+
 
 ## Main findings
 
